@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    scroll-behavior: smooth;
+}
+
+
+
+header
+{
+    width:100%;
+    background-color: #242422;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+img{
+    width: 250px;
+}
+
+.nav1 a{
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 18px;
+    margin: 22px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav1 a:hover{
+    color: #0088a9;
+}
+
+
+header a{
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    color: #f0f0f0;
+    padding: 25px;
+}
+
+header a:hover{
+    
+    color: #0088a9;
+}
+
+
+
+section{
+    min-height: 100vh;
+    display: flex;
+    background-color: #303030;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #f0f0f0;
+}
+
+
+footer h5 {
+    margin-left: 20px;
+    text-align:left;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 15px;
+}
+
+footer h4  {
+
+    font-size: 20px;
+  text-align: center;
+    margin-bottom: 40px;
+}
+
+footer h4 a{
+    color: #242422;
+    margin: 20px;
+    opacity: 0.75; 
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+footer h4 a:hover{
+    opacity: 1;
+}
+
+
